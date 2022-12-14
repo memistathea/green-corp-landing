@@ -39,6 +39,7 @@ button {
 }
 
 .about {
+  position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -47,7 +48,7 @@ button {
   background: url("img/back.png") no-repeat;
   background-position: center;
   background-size: cover;
-  position: relative;
+  
 }
 .about h1 {
   font-size: 70px;
@@ -445,7 +446,7 @@ footer h3 {
 .orb-canvas {
   position: absolute;
   top: 0;
-  right: 0;
   height: 100%;
-
+  width: 100%;
+  right: 0;
 }
